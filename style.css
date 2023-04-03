@@ -1,0 +1,129 @@
+html,
+body{
+    margin: 0px;
+    padding:0px;
+}
+.jumbotron{
+    width: 1000px;
+    height: 500px;    
+    border:2px solid black;
+    margin: 10px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    text-align: center;       
+}
+.content>h1{
+margin: 36px 0 18px 0;
+padding:0px;
+border: 0px;
+font-size: 30px;
+}
+.container{
+    display: flex;
+    margin: auto;
+    width: 92%;
+    height: 65%;
+    border:2px solid black;
+}
+.col1{
+    display: flex;
+    width: 32%;
+    height: 90%;
+    border:2px solid white;
+    margin:25px;
+}
+.square{
+    display: flex;
+    width: 165px;
+    height: 174px;
+    border:2px solid black;
+    margin: 20px 20px auto 30px;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    display: flex;
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    border:2px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.col2{
+    width: 21%;
+    height: 75%;
+    border:2px solid white;
+    margin:10px 10px ;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.row1{
+    position: relative;
+    width: 90%;
+    height: 35px;
+    border:2px solid black;
+    display: inline-flex;
+    margin: 5px ;
+}
+.details{    
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 10px 0 15px auto; 
+}
+.row2{
+    position: relative;
+    width: 35%;
+    height: 35px;
+    border:2px solid black;
+    display: flex;
+    margin: 5px ;
+    justify-content: center;
+    align-items: center;
+}
+.col3{
+    width: 41%;
+    height: 75%;
+    border:2px solid white;
+    margin:10px 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.row3{
+    position: absolute;
+    width: 190px;
+    height: 40px;
+    border: 2px solid black;
+    display:flex;
+    justify-content: center;    
+    align-items: center;
+    margin: 270px 0px 0px 440px;
+}
+.row4{
+    position: absolute;
+    width: 190px;
+    height: 40px;
+    border: 2px solid black;
+    display:flex;    
+    align-items: center;
+    justify-content: center;
+    margin: 270px 0px 0px 670px;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: #000000 transparent transparent transparent;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    align-items: end;
+    }
