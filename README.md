@@ -1,2 +1,0 @@
-# FullStackAssignment
-Task
