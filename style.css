@@ -1,46 +1,33 @@
+/* Apply a background color to the entire page */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f2f2f2;
+  background-color: #f0f0f0; /* Change the color as needed */
 }
 
+/* Style the header */
 header {
-  background-color: #333;
-  color: white;
+  background-color: #333; /* Change the header background color as needed */
+  color: #fff; /* Change the header text color as needed */
+  padding: 10px;
   text-align: center;
-  padding: 1rem;
+  font-size: 24px; /* Adjust the font size as needed */
 }
 
-main {
-  padding: 1rem;
-}
-
-input {
-  width: 100%;
-  padding: 0.5rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-bottom: 1rem;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-li {
-  background-color: #fff;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-}
-
+/* Style the footer */
 footer {
-  background-color: #333;
-  color: white;
+  background-color: #333; /* Change the footer background color as needed */
+  color: #fff; /* Change the footer text color as needed */
+  padding: 10px;
   text-align: center;
-  padding: 0.5rem;
+}
+
+/* Center-align text in the main content area */
+#breweryList {
+  text-align: left;
+}
+
+/* Additional styles for input fields */
+input {
+  margin: 10px;
+  padding: 5px;
+  width: 250px;
 }
